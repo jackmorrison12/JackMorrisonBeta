@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: About
+  link: /about
+- name: CV
+  link: /files/jack-cv.pdf
+- name: Transcript
+  link: /transcript
+- name: Portfolio
+  link: /portfolio

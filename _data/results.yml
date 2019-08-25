@@ -1,0 +1,15 @@
+- name: Imperial College London
+  dates: 2017-2021
+  commendations:
+    - name: Best Group Project on Medical Imaging
+      awarder: Dr Konstantinos Gkoutzis
+      date: March 2018
+    - name: Runner Up Topics Group Project (out of 66 groups)
+      awarder: Dr Konstantinos Gkoutzis
+      date: March 2018
+    - name: Best C Group Project Extension
+      awarder: Dr Konstantinos Gkoutzis
+      date: June 2018
+    - name: Runner-Up WebApps Group Project
+      awarder: Dr Mark Wheelhouse
+      date: June 2019

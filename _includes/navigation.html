@@ -2,7 +2,7 @@
 
     {% for item in site.data.navigation %}
         <li>
-            <a {% if page.url == item.link" %}class="active"{% endif %} href="{{ item.link }}">{{ item.name }}</a>
+            <a {% if page.url == item.link" %}class="active"{% endif %} href="/beta{{ item.link }}">{{ item.name }}</a>
         </li>
     {% endfor %}
 

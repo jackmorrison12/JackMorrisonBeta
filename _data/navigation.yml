@@ -1,10 +1,10 @@
 - name: Home
-  link: index
+  link: /index
 - name: About
-  link: about
+  link: /about
 - name: CV
-  link: files/jack-cv.pdf
+  link: /files/jack-cv.pdf
 - name: Transcript
-  link: transcript
+  link: /transcript
 - name: Portfolio
-  link: portfolio
+  link: /portfolio

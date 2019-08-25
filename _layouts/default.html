@@ -14,6 +14,9 @@
         <div class="container">
             {% include header.html %}
             {% include navigation.html %}
+            {% if site.show_banner %}
+              {% include banner.html %}
+            {% endif %}
             <div class="content">
                 <h1>{{ page.title }}</h1>
                     {{ content }}

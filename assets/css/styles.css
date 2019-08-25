@@ -159,7 +159,7 @@ body {
     margin: 0;
     padding: 10px;
     overflow: hidden;
-    background-color: blueviolet;
+    background-color: darkred;
     color: white;
     position: -webkit-sticky; /* Safari */
     position: sticky;

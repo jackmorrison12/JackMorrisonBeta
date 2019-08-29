@@ -13,3 +13,47 @@
     - name: Runner-Up WebApps Group Project
       awarder: Dr Mark Wheelhouse
       date: June 2019
+  years:
+    - year_no: First
+      overall: First (71.4%)
+      highlights:
+        - name: Haskell Interim Test
+          score: First (80%)
+        - name: Haskell Final Test
+          score: First (73%)
+        - name: Java Interim Test
+          score: First (80%)
+        - name: Java Final Test
+          score: First (76%)
+        - name: Computing Topics Project
+          score: First (98%)
+        - name: C Project
+          score: First (96%)
+    - year_no: Second
+      overall: First (79.3%)
+      highlights:
+        - name: Models of Computation Exam
+          score: First (97.2%)
+        - name: Software Engineering Design Exam
+          score: First (86.67%)
+        - name: Pintos Project
+          score: First (88.3%)
+        - name: WACC Project
+          score: First (96.4%)
+
+- name: Westcliff High School for Boys
+  dates: 2015-2017
+  qualifications:
+    - name: A Levels
+    - name: AS Levels
+    - name: Other Qualifications
+
+  participation:
+
+- name: The Billericay School
+  dates: 2010-2015
+  qualifications:
+    - name: GCSEs
+    - name: Other Qualifications
+  participation:
+  commendations:

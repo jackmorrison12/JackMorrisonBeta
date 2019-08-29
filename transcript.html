@@ -11,14 +11,25 @@ This page is currently highly experimental
 <br>
 
 {% for item in site.data.results %}
-    <b>{{item.name}}</b>
-    <br>
+    <h1>{{item.name}}</h1>
     <i>{{item.dates}}</i>
     <br>
 
+    {% for yr in item.years %}
+        <br>
+        <h2>{{yr.year_no}} Year</h2>
+        <i>Grade: {{yr.overall}}</i> <br><br>
+        Highlights:<br>
+        {% for hl in yr.highlights %}
+            {{hl.name}} - <i>{{hl.score}}</i> <br>
+        {% endfor %}
+
+    {% endfor %}
+
+    <h2>Commendations:</h2>
     {% for comm in item.commendations %}
-            <li>{{comm.name}}</li> <br>
-            <i>{{comm.awarder}}</i> <br>
+            {{comm.name}} -
+            <i>{{comm.awarder}}</i>,
             <i>{{comm.date}}</i> <br>
     {% endfor %}
 

@@ -47,8 +47,13 @@
     - name: A Levels
     - name: AS Levels
     - name: Other Qualifications
-
   participation:
+    - Prefect
+    - Bebras Challenge
+    - British Informatics Olympiad
+    - Year 12 Computing Prefect
+    - Open Evenings
+    - Project Euler
 
 - name: The Billericay School
   dates: 2010-2015
@@ -56,4 +61,26 @@
     - name: GCSEs
     - name: Other Qualifications
   participation:
+    - House Captain
   commendations:
+    - name: Outstanding Achievement Award
+      date: 2011
+    - name: "Best in Year: Geography"
+      date: 2012
+    - name: "Best in Year: Business and Communication Systems" 
+      date: 2014
+    - name: "Best in Year: Chemistry"
+      date: 2014
+
+- name: ABRSM
+  qualifications:
+    - name: Piano
+      grades: 
+        - name: Grade 1
+          score: Pass
+        - name: Grade 2
+          score: Pass
+        - name: Grade 3
+          score: Pass
+        - name: Grade 4
+          score: Merit

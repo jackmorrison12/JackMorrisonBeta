@@ -7,10 +7,12 @@ permalink: /transcript/
 This page is currently highly experimental 
 <br>
 
-{% include collapsible.html%} 
-<br>
 
 {% for item in site.data.results %}
+
+    {% include collapsible.html%} 
+    <br>
+
     <h1>{{item.name}}</h1>
     <i>{{item.dates}}</i>
     <br>
@@ -26,11 +28,22 @@ This page is currently highly experimental
 
     {% endfor %}
 
-    <h2>Commendations:</h2>
-    {% for comm in item.commendations %}
-            {{comm.name}} -
-            <i>{{comm.awarder}}</i>,
-            <i>{{comm.date}}</i> <br>
+    {% if item.commendations %}
+        <h2>Commendations:</h2>
+        {% for comm in item.commendations %}
+                {{comm.name}} -
+                {% if comm.awarder %}
+                    <i>{{comm.awarder}}</i>,
+                {% endif %}
+                <i>{{comm.date}}</i> <br>
+        {% endfor %}
+    {% endif %}
+
+    {% if item.participation %}
+    <h2>Participation:</h2>
+    {% for p in item.participation %}
+            {{p}}<br>
     {% endfor %}
+{% endif %}
 
 {% endfor %}

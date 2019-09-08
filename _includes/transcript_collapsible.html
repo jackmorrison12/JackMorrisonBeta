@@ -1,0 +1,43 @@
+<h1>{{item.name}}</h1>
+<i>{{item.dates}}</i>
+<br>
+
+{% if item.years %}
+    {% for yr in item.years %}
+        <h2>{{yr.year_no}} Year</h2>
+        <i>Grade: {{yr.overall}}</i> <br><br>
+        Highlights:<br>
+        {% for hl in yr.highlights %}
+            {{hl.name}} - <i>{{hl.score}}</i> <br>
+        {% endfor %}
+    {% endfor %}
+{% endif %}
+
+{% if item.qualifications %}
+    <h2>Qualifications:</h2>
+    {% for qual in item.qualifications %}  
+        <h3>{{qual.name}}</h3>
+        {% for g in qual.grades %}
+            <b>{{g.subject}}</b> - {{g.grade}}
+            <br>
+        {% endfor %}
+    {% endfor %}
+{% endif %}
+
+{% if item.commendations %}
+    <h2>Commendations:</h2>
+    {% for comm in item.commendations %}
+            {{comm.name}} -
+            {% if comm.awarder %}
+                <i>{{comm.awarder}}</i>,
+            {% endif %}
+            <i>{{comm.date}}</i> <br>
+    {% endfor %}
+{% endif %}
+
+{% if item.participation %}
+    <h2>Participation:</h2>
+    {% for p in item.participation %}
+            {{p}}<br>
+    {% endfor %}
+{% endif %}

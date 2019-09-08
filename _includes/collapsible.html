@@ -1,5 +1,5 @@
 <button class="collapsible" style="background-image: url('{{ include.background }}'); background-position-y: {{ include.offset }};">{{ include.title }}</button>
 <div class="coll_content">
-  <p>{{ include.content }}</p>
+  <p>{% include {{ include.content }}.html %}</p>
 </div>
         

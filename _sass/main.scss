@@ -60,6 +60,18 @@ body {
     font-size: 18px; 
 }
 
+
+.content table {
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed ;
+    width: 50% ;
+}
+
+.content td {
+    width: 50% ;
+}
+
 .map-content {
     background-color: white;
     padding: 10px;

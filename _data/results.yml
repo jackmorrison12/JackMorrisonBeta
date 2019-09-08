@@ -1,7 +1,7 @@
 - name: Imperial College London
   dates: 2017-2021
   background: https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/180216_queens_tower_lgbt_month_002--tojpeg_1545305547967_x2.jpg
-  offset: 225px
+  offset: center
   commendations:
     - name: Best Group Project on Medical Imaging
       awarder: Dr Konstantinos Gkoutzis
@@ -145,7 +145,7 @@
 - name: ABRSM
   dates: 2012-2017
   background: https://abrsmwebprodmedia.blob.core.windows.net/umbracomedia-cache/6/b/5/5/c/4/6b55c4ffe878156dc8b55b9ace82e2d0dc4c5971.jpg
-  offset: 235px
+  offset: center
   qualifications:
     - name: Piano
       grades: 

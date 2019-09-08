@@ -2,6 +2,7 @@
 layout: default
 title: About
 permalink: /about/
+style: default
 ---
 
 All of the content on this site is generated using the static website generator Jekyll.

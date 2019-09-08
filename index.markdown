@@ -2,6 +2,7 @@
 layout: default
 title: Home
 permalink: /
+style: default
 ---
 
 Hey, my name is Jack. I am a third year Computing Undergraduate at Imperial College London. Before studying at Imperial, I studied at The Billericay School and Westcliff High School for Boys Sixth Form.

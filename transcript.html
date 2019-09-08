@@ -2,12 +2,13 @@
 layout: default
 title: Transcript
 permalink: /transcript/
+style: transcript
 ---
 
 
 {% for item in site.data.results %}
 
-    {% include collapsible.html title=item.name content="test" %} 
+    {% include collapsible.html title=item.name content="test" background=item.background offset=item.offset %} 
     <br>
 
     <h1>{{item.name}}</h1>

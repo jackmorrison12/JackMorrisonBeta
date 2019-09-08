@@ -1,5 +1,7 @@
 - name: Imperial College London
   dates: 2017-2021
+  background: https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/180216_queens_tower_lgbt_month_002--tojpeg_1545305547967_x2.jpg
+  offset: 225px
   commendations:
     - name: Best Group Project on Medical Imaging
       awarder: Dr Konstantinos Gkoutzis
@@ -43,6 +45,8 @@
 
 - name: Westcliff High School for Boys
   dates: 2015-2017
+  background: https://www.whsb.essex.sch.uk/_site/data/files/images/slideshow/1/2E32CF64A1877B2970C2FD065348E94A.jpg
+  offset: center
   qualifications:
     - name: A Levels
     - name: AS Levels
@@ -57,6 +61,8 @@
 
 - name: The Billericay School
   dates: 2010-2015
+  background: https://www.billericayschool.com/themes/custom/images/bill-main-home.jpg
+  offset: 148px
   qualifications:
     - name: GCSEs
     - name: Other Qualifications
@@ -73,6 +79,8 @@
       date: 2014
 
 - name: ABRSM
+  background: https://abrsmwebprodmedia.blob.core.windows.net/umbracomedia-cache/6/b/5/5/c/4/6b55c4ffe878156dc8b55b9ace82e2d0dc4c5971.jpg
+  offset: 235px
   qualifications:
     - name: Piano
       grades: 

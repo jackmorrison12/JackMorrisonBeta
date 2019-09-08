@@ -4,13 +4,10 @@ title: Transcript
 permalink: /transcript/
 ---
 
-This page is currently highly experimental 
-<br>
-
 
 {% for item in site.data.results %}
 
-    {% include collapsible.html%} 
+    {% include collapsible.html title=item.name content="test" %} 
     <br>
 
     <h1>{{item.name}}</h1>
@@ -40,11 +37,11 @@ This page is currently highly experimental
     {% endif %}
 
     {% if item.participation %}
-    <h2>Participation:</h2>
-    {% for p in item.participation %}
-            {{p}}<br>
-    {% endfor %}
-{% endif %}
+        <h2>Participation:</h2>
+        {% for p in item.participation %}
+                {{p}}<br>
+        {% endfor %}
+    {% endif %}
 
 {% endfor %}
 

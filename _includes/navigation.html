@@ -1,15 +1,16 @@
-<ul>
+<div class="nav">
+    <ul>
 
-    {% for item in site.data.navigation %}
-        <li>
-            <a {% if page.url == item.link %}class="active"{% endif %} href="{{site.baseurl}}{{ item.link }}">{{ item.name }}</a>
-        </li>
-    {% endfor %}
+        {% for item in site.data.navigation %}
+            <li>
+                <a {% if page.url == item.link %}class="active"{% endif %} href="{{site.baseurl}}{{ item.link }}">{{ item.name }}</a>
+            </li>
+        {% endfor %}
 
-    {% for item in site.data.socials %}
-        <a href = "{{item.url}}">
-            <img src="{{item.img_src}}" class="nav-logo">
-        </a>   
-    {% endfor %}
-
-</ul>
+        {% for item in site.data.socials %}
+            <a href = "{{item.url}}">
+                <img src="{{item.img_src}}" class="nav-logo">
+            </a>   
+        {% endfor %}
+    </ul>
+</div>

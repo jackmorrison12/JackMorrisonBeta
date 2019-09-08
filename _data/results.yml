@@ -61,7 +61,19 @@
         - subject: EPQ
           grade: A
     - name: AS Levels
+      grades:
+        - subject: Mathematics
+          grade: A
+        - subject: Further Mathematics
+          grade: A
+        - subject: Physics
+          grade: A
+        - subject: Computing
+          grade: A
     - name: Other Qualifications
+      grades:
+        - subject: UKMT Senior Mathematics Challenge
+          grade: Gold
   participation:
     - Prefect
     - Bebras Challenge
@@ -76,7 +88,48 @@
   offset: 148px
   qualifications:
     - name: GCSEs
+      grades:
+        - subject: English Language
+          grade: A
+        - subject: English Literature
+          grade: B
+        - subject: Mathematics
+          grade: A*
+        - subject: Statistics
+          grade: A*
+        - subject: Biology
+          grade: A
+        - subject: Chemistry
+          grade: A*
+        - subject: Physics
+          grade: A*
+        - subject: Business and Communication Systems
+          grade: A
+        - subject: Computer Science
+          grade: A*
+        - subject: German
+          grade: A
+        - subject: History
+          grade: A*
+        - subject: Religious Studies
+          grade: A
     - name: Other Qualifications
+      grades:
+        - subject: UKMT Junior Mathematics Challenge
+          grade: Gold
+        - subject: UKMT Intermediate Mathematics Challenge
+          grade: Gold, Best in Year
+        - subject: Duke of Edinburgh
+          grade: Bronze Award
+        - subject: French ASSET Exam
+          grade: Level 6
+        - subject: German ASSET Exam
+          grade: Level 6
+        - subject: Mathematics Functional Skills
+          grade: Level 2
+        - subject: Mathematics Proficiency in Number and Measure 
+          grade: Level 6
+
   participation:
     - House Captain
   commendations:

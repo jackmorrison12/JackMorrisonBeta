@@ -4,9 +4,14 @@ layout: default
 
 {% for item in site.data.projects %}
     {% if page.title == item.name %}
-        
+
         {{item.long_desc}}
         <br><br>
+        {% for pic in item.pictures %}
+            <img src="{{pic}}">
+            <br>
+        {% endfor %}
+        <br>
         <a href="{{item.github}}">Github</a>
         <br>
         <a href="{{item.devpost}}">DevPost</a>

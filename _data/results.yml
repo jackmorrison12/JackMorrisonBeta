@@ -84,8 +84,8 @@
 
 - name: The Billericay School
   dates: 2010-2015
-  background: https://www.billericayschool.com/themes/custom/images/bill-main-home.jpg
-  offset: 148px
+  background: https://www.simmonds-ltd.com/pub/media/catalog/category/Billericay.jpg
+  offset: center
   qualifications:
     - name: GCSEs
       grades:

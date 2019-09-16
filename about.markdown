@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 style: default
 ---
-<img src="/images/avatar.jpg" alt="Avatar">
+<img class="avatar" src="/images/avatar.jpg" alt="Avatar">
 
 All of the content on this site is generated using the static website generator Jekyll.
 

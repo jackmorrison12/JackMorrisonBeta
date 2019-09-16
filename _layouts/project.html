@@ -9,10 +9,8 @@ layout: default
 
         <p>{{item.long_desc}}</p>
         
-        <br><br>
         {% if item.pictures %}
-            Here are some pictures of {{item.name}}:
-            <br>
+            <p>Here are some pictures of {{item.name}}:</p>
             {% for pic in item.pictures %}
                 <img class="proj_img" src="{{site.baseurl}}{{pic}}">
             {% endfor %}

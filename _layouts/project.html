@@ -1,5 +1,10 @@
 ---
 layout: default
-style: projects
 ---
 
+{% for item in site.data.projects %}
+    {% if page.title == item.name %}
+        yay it works
+    {% endif %}
+
+{% endfor %}

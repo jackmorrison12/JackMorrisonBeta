@@ -1,24 +1,8 @@
 <h1 class="mar_b_0">{{item.name}}</h1>
 <i>{{item.dates}}</i>
 <br>
-{% if item.github %}
-<a class="site_icon" href="{{item.github}}">
-    <img class="site_icon" src="/images/github-logo-black.png">
-</a>
-{% endif %}
-{% if item.gitlab %}
-<a class="site_icon" href="{{item.gitlab}}">
-<img class="site_icon" src="/images/gitlab-logo.png">
-</a>
-{% endif %}
-{% if item.devpost %}
-<a class="site_icon" href="{{item.devpost}}">
-    <img class="site_icon" src="/images/devpost-logo.png">
-</a>
-{% endif %}
-{% if item.devpost or item.github or item.gitlab%}
-<br>
-{% endif %}
+
+{% include code_links.html top_gap=true %}
 
 <p>{{item.short_desc}}</p>
 

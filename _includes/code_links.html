@@ -1,23 +1,14 @@
 {% if include.top_gap %}
-    {% if item.devpost or item.github or item.gitlab %}
+    {% if item.sources %}
         <br>
     {% endif %}
 {% endif %}
-{% if item.github %}
-    <a class="site_icon" href="{{item.github}}">
-        <img class="site_icon" src="/images/github-logo-black.png">
+
+{% for src in item.sources %}
+    <a class="site_icon" href="{{src.url}}">
+        <img class="site_icon" src="/images/{{src.name}}-logo.png">
     </a>
-{% endif %}
-{% if item.gitlab %}
-    <a class="site_icon" href="{{item.gitlab}}">
-    <img class="site_icon" src="/images/gitlab-logo.png">
-    </a>
-{% endif %}
-{% if item.devpost %}
-    <a class="site_icon" href="{{item.devpost}}">
-        <img class="site_icon" src="/images/devpost-logo.png">
-    </a>
-{% endif %}
-{% if item.devpost or item.github or item.gitlab%}
+{% endfor %}
+{% if item.sources %}
     <br>
 {% endif %}

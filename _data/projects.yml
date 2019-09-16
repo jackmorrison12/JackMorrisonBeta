@@ -5,7 +5,9 @@
   dates: May 2019 - June 2019
   short_desc: "This was a webapp created using React, Python, Java, MongoDB and Azure,  in order to tackle the problem of confirmation bias in the current consumption of the news."
   long_desc: "This was our end of second year group project, where the brief was to create a webapp. We decided to create a news feed with a difference. The aim was to encourage people to change up their news sources and read some new material in order to \"Burst their Bubble\". We wrote it using React for the frontend and Python/Java for the backend, and used a MongoDB database."
-  gitlab: https://gitlab.doc.ic.ac.uk/BurstMyBubble
+  sources:
+    - name: gitlab
+      url: https://gitlab.doc.ic.ac.uk/BurstMyBubble
   pictures:
     - /images/projects/bmb-1.png
     - /images/projects/bmb-2.png
@@ -25,8 +27,11 @@
   dates: January 2019
   short_desc: "This was a hackathon entry for Cambridge Hack 4D. It used APIs from Monzo, Gmail and Microsoft Azure."
   long_desc: "This app was created as part of Cambridge Hack 4D. <br>It displays recent transactions to the user, and if the user clicks the \"Add Receipt\" button, then it will use the Gmail API to scan their emails, find the correct one, and gather the receipt data, adding this to the Monzo application. <br>It is also possible to have pictures of receipts if they are physical and not in the emails, and then the same algorithm is run on the text data gathered from the receipt using Microsoft Azrure OCR to get the equivalent information and add it to the transaction in the Monzo app."
-  github: https://github.com/et-tamen-compilat/monzo-receipts
-  devpost: https://devpost.com/software/monzo-receipts
+  sources:
+   - name: github
+     url: https://github.com/et-tamen-compilat/monzo-receipts
+   - name: devpost
+     url: https://devpost.com/software/monzo-receipts
   pictures:
     - /images/projects/monzo-receipts.png
 - name: Pintos
@@ -35,7 +40,7 @@
   url: pintos
   dates: October 2018 - December 2018
   short_desc: "This was our 2nd year operating systems project, where the task was to implement different parts of an operating system."
-  long_desc: "his was our 2nd year operating systems project, where the task was to implement different parts of an operating system, including scheduling, user programs and virtual memory. This project was written entirely in C.<br>Unfortunately, the code for this project cannot be shared, as the task will be reused in future years."
+  long_desc: "This was our 2nd year operating systems project, where the task was to implement different parts of an operating system, including scheduling, user programs and virtual memory. This project was written entirely in C.<br>Unfortunately, the code for this project cannot be shared, as the task will be reused in future years."
 - name: MentorMe
   background: https://cdn.vox-cdn.com/thumbor/OTFuSU3Vo3iwKvL-MAh34AD2AyE=/0x0:2040x1360/1200x800/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/62954051/mdoying_180118_2249_facebook_0445stills_3.0.jpg
   offset: center
@@ -43,7 +48,9 @@
   dates: September 2018 - November 2018
   short_desc: "We created a project as part of the Facebook Hack-a-Project with the aim of \"Bringing Communities Together\"."
   long_desc: "We created a project as part of the Facebook Hack-a-Project with the aim of \"Bringing Communities Together\". Our application is a mentoring application which allows people with valuable skills and experiences to trade that knowledge for knowledge from others. It was built using the MERN stack (MongoDB, Express, React and Node.js)."
-  github: https://github.com/HashimR/mentorme
+  sources:
+    - name: github
+      url: https://github.com/HashimR/mentorme
 - name: Snake Arcade Machine
   background: https://i.ytimg.com/vi/DW2ZxWX5XAY/maxresdefault.jpg
   offset: center
@@ -51,7 +58,9 @@
   dates: May 2018 - June 2018
   short_desc: "This was the extension to our third term group project in first year, where we chose to recreate the classic game of snake on a 32x32 LED matrix."
   long_desc: "We chose to recreate the classic game of snake on a 32x32 LED matrix. We did this by using a hat for the Raspberry Pi to connect it to the matrix, and created 4 modes for the game, one of which was an Artificial Intelligence. We also created an arcade-machine inspired box for the project, and created all of our own sounds too.<br>This project won the prize for the best group project extension, judged by the creators of the Raspberry Pi themselves."
-  github: https://github.com/et-tamen-compilat/snake
+  sources:
+    - name: github
+      url: https://github.com/et-tamen-compilat/snake
   videos:
     - title: Startup
       url: https://www.youtube.com/embed/j-aXoEqF7yU
@@ -67,10 +76,19 @@
   background: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Raspberry_Pi_B%2B_top.jpg/2560px-Raspberry_Pi_B%2B_top.jpg
   offset: center
   url: arm11
+  dates: May 2018 - June 2018
+  short_desc: "This project entailed creating an ARM11 Emulator and Assembler in C, then using these in combination with a Raspberry Pi to control an LED."
+  long_desc: "This project was completed in the final term of my first year undergraduate studies. It entailed creating an ARM11 Emulator and Assembler in C, then using these in combination with a Raspberry Pi to control an LED.<br>Unfortunately the code for the emulator and assembler cannot be shared here as the task will be reused in future years."
 - name: Deep Learning in Medical Imaging Analysis
   background: https://www.doc.ic.ac.uk/~jce317/content-images/medImaging.png
   offset: center
   url: topics
+  dates: January 2018 - March 2018
+  short_desc: "This project was undertaken as my first year group project, and involved creating a website discussing the uses of AI in Medical Imaging Analysis."
+  long_desc: "This project was undertaken as my first year group project, and involved creating a website discussing the uses of AI in Medical Imaging Analysis.<br>Our main areas of research were to look into the history and evolution of medical imaging and machine learning as separate topics, and then find areas in which they overlapped. We looked at Convolutional Neural Networks, along with Semantic Segmentation, as these are the most commmonplace in medical imaging. We then looked at overlapping topics, these being the uses of AI in radiology, and a deeper case study into the user for detection of lung cancer."
+  sources:
+    - name: website
+      url: https://www.doc.ic.ac.uk/~jce317/
 - name: To What Extent are Computer-Assisted Proofs Valid?
   background: https://miro.medium.com/max/3840/1*XZrU5omVCZPZXuYv2AZnog.jpeg
   offset: center

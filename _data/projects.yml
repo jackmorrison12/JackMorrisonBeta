@@ -40,6 +40,10 @@
   background: https://cdn.vox-cdn.com/thumbor/OTFuSU3Vo3iwKvL-MAh34AD2AyE=/0x0:2040x1360/1200x800/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/62954051/mdoying_180118_2249_facebook_0445stills_3.0.jpg
   offset: center
   url: mentor-me
+  dates: September 2018 - November 2018
+  short_desc: "We created a project as part of the Facebook Hack-a-Project with the aim of \"Bringing Communities Together\"."
+  long_desc: "We created a project as part of the Facebook Hack-a-Project with the aim of \"Bringing Communities Together\". Our application is a mentoring application which allows people with valuable skills and experiences to trade that knowledge for knowledge from others. It was built using the MERN stack (MongoDB, Express, React and Node.js)."
+  github: https://github.com/HashimR/mentorme
 - name: Snake Arcade Machine
   background: https://i.ytimg.com/vi/DW2ZxWX5XAY/maxresdefault.jpg
   offset: center

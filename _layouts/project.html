@@ -4,7 +4,13 @@ layout: default
 
 {% for item in site.data.projects %}
     {% if page.title == item.name %}
-        yay it works
-    {% endif %}
+        
+        {{item.long_desc}}
+        <br><br>
+        <a href="{{item.github}}">Github</a>
+        <br>
+        <a href="{{item.devpost}}">DevPost</a>
 
+
+    {% endif %}
 {% endfor %}

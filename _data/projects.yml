@@ -10,6 +10,11 @@
   background: https://images.squarespace-cdn.com/content/55ed941ee4b0fe005b38b95d/1503770964368-MDMOLHC22MDRVHIU6EPS/monzocard.jpg?format=1500w&content-type=image%2Fjpeg
   offset: center
   url: monzo-receipts
+  dates: January 2019
+  short_desc: "This was a hackathon entry for Cambridge Hack 4D. It used APIs from Monzo, Gmail and Microsoft Azure."
+  long_desc: "This app was created as part of Cambridge Hack 4D. <br>It displays recent transactions to the user, and if the user clicks the \"Add Receipt\" button, then it will use the Gmail API to scan their emails, find the correct one, and gather the receipt data, adding this to the Monzo application. <br>It is also possible to have pictures of receipts if they are physical and not in the emails, and then the same algorithm is run on the text data gathered from the receipt using Microsoft Azrure OCR to get the equivalent information and add it to the transaction in the Monzo app."
+  github: https://github.com/et-tamen-compilat/monzo-receipts
+  devpost: https://devpost.com/software/monzo-receipts
 - name: Pintos
   background: https://static.techspot.com/images2/news/bigimage/2018/07/2018-07-10-image-35.jpg
   offset: center

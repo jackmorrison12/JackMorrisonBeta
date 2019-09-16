@@ -48,6 +48,21 @@
   background: https://i.ytimg.com/vi/DW2ZxWX5XAY/maxresdefault.jpg
   offset: center
   url: snake
+  dates: May 2018 - June 2018
+  short_desc: "This was the extension to our third term group project in first year, where we chose to recreate the classic game of snake on a 32x32 LED matrix."
+  long_desc: "We chose to recreate the classic game of snake on a 32x32 LED matrix. We did this by using a hat for the Raspberry Pi to connect it to the matrix, and created 4 modes for the game, one of which was an Artificial Intelligence. We also created an arcade-machine inspired box for the project, and created all of our own sounds too.<br>This project won the prize for the best group project extension, judged by the creators of the Raspberry Pi themselves."
+  github: https://github.com/et-tamen-compilat/snake
+  videos:
+    - title: Startup
+      url: https://www.youtube.com/embed/j-aXoEqF7yU
+    - title: Classic Mode
+      url: https://www.youtube.com/embed/072oDonJBBU
+    - title: Crazy Mode
+      url: https://www.youtube.com/embed/l9AlzzPRaXk
+    - title: Maze Mode
+      url: https://www.youtube.com/embed/DRKbVj0Y6U0
+    - title: AI Timelapse
+      url: https://www.youtube.com/embed/h3LU4xwfbko
 - name: ARM11 Emulator and Assembler
   background: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Raspberry_Pi_B%2B_top.jpg/2560px-Raspberry_Pi_B%2B_top.jpg
   offset: center

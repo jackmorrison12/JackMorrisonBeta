@@ -21,7 +21,7 @@
 - name: Snake Arcade Machine
   background: https://i.ytimg.com/vi/DW2ZxWX5XAY/maxresdefault.jpg
   offset: center
-    url: snake
+  url: snake
 - name: ARM11 Emulator and Assembler
   background: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Raspberry_Pi_B%2B_top.jpg/2560px-Raspberry_Pi_B%2B_top.jpg
   offset: center

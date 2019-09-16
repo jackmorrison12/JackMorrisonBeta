@@ -10,12 +10,17 @@ layout: default
                 <img class="site_icon" src="/images/github-logo-black.png">
             </a>
         {% endif %}
+        {% if item.gitlab %}
+        <a class="site_icon" href="{{item.gitlab}}">
+            <img class="site_icon" src="/images/gitlab-logo.png">
+        </a>
+        {% endif %}
         {% if item.devpost %}
             <a class="site_icon" href="{{item.devpost}}">
                 <img class="site_icon" src="/images/devpost-logo.png">
             </a>
         {% endif %}
-        {% if item.devpost or item.github %}
+        {% if item.devpost or item.github or item.gitlab%}
             <br>
         {% endif %}
 
@@ -26,7 +31,6 @@ layout: default
             <br>
             {% for pic in item.pictures %}
                 <img class="proj_img" src="{{site.baseurl}}{{pic}}">
-                <br>
             {% endfor %}
         {% endif %}
         <br>

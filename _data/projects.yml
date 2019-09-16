@@ -2,6 +2,15 @@
   background: https://www.thoughtco.com/thmb/yT6yrtBDJDAxl7pIwwJ7-e1l97o=/2000x1334/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-551987659-5898c5b73df78caebc9e43f1.jpg
   offset: center
   url: burst-my-bubble
+  dates: May 2019 - June 2019
+  short_desc: "This was a webapp created using React, Python, Java, MongoDB and Azure,  in order to tackle the problem of confirmation bias in the current consumption of the news."
+  long_desc: "This was our end of second year group project, where the brief was to create a webapp. We decided to create a news feed with a difference. The aim was to encourage people to change up their news sources and read some new material in order to \"Burst their Bubble\". We wrote it using React for the frontend and Python/Java for the backend, and used a MongoDB database."
+  gitlab: https://gitlab.doc.ic.ac.uk/BurstMyBubble
+  pictures:
+    - /images/projects/bmb-1.png
+    - /images/projects/bmb-2.png
+    - /images/projects/bmb-3.png
+    - /images/projects/bmb-4.png
 - name: WACC
   background: https://softwareengineeringdaily.com/wp-content/uploads/2018/10/kotlin.jpg
   offset: center

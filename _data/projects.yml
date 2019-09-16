@@ -1,6 +1,7 @@
 - name: Burst My Bubble
   background: https://www.thoughtco.com/thmb/yT6yrtBDJDAxl7pIwwJ7-e1l97o=/2000x1334/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-551987659-5898c5b73df78caebc9e43f1.jpg
   offset: center
+  url: burst-my-bubble
 - name: WACC
   background: https://softwareengineeringdaily.com/wp-content/uploads/2018/10/kotlin.jpg
   offset: center

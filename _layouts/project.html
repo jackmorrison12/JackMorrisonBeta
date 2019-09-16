@@ -6,13 +6,13 @@ layout: default
     {% if page.title == item.name %}
 
         {% if item.github %}
-            <a href="{{item.github}}">
-                <img class="site_icon" src="/images/github-logo-black.png">
+            <a class="site_icon" href="{{item.github}}">
+                <img src="/images/github-logo-black.png">
             </a>
         {% endif %}
         {% if item.devpost %}
-            <a href="{{item.devpost}}">
-                <img class="site_icon" src="/images/devpost-logo.png">
+            <a class="site_icon" href="{{item.devpost}}">
+                <img src="/images/devpost-logo.png">
             </a>
         {% endif %}
         {% if item.devpost or item.github %}

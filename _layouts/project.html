@@ -5,13 +5,19 @@ layout: default
 {% for item in site.data.projects %}
     {% if page.title == item.name %}
 
-        <a href="{{item.github}}">
-            <img src="/images/github-logo.png">
-        </a>
-        <a href="{{item.devpost}}">
-            <img src="/images/devpost-logo.png">
-        </a>
-        <br>
+        {% if item.github %}
+            <a href="{{item.github}}">
+                <img src="/images/github-logo.png">
+            </a>
+        {% endif %}
+        {% if item.devpost %}
+            <a href="{{item.devpost}}">
+                <img src="/images/devpost-logo.png">
+            </a>
+        {% endif %}
+        {% if item.devpost or item.github %}
+            <br>
+        {% endif %}
 
         {{item.long_desc}}
         <br><br>

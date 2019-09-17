@@ -20,6 +20,23 @@
   dates: January 2019 - March 2019
   short_desc: "This is our second year compilers project, where we are creating a compiler for a programming language."
   long_desc: "This is our second year compilers project, where we are creating a compiler for a programming language. We wrote the compiler in Kotlin.<br>Unfortunately, the code for this project cannot be shared, as the task will be reused in future years."
+- name: correct-a-spine
+  background: https://embed.widencdn.net/img/veritas/hhfs20mdfz/1280x720px/thoracic-vertebrae.jpeg
+  offset: center
+  url: correct-a-spine
+  dates: March 2019
+  short_desc: "This was a hackathon entry for Imperial College Health Hack 19. We created a device to prevent back pain using sensors and an iOS app."
+  long_desc: "This was a hackathon entry for Imperial College Health Hack 19. Problems with posture arise because of upper and lower back problems, but the current technologies only focus on one of these, and so we decided to use an accelerometer and flex sensor to measure both of these to prevent both kinds of back pain with a single device. The results are shows in an iOS application which is sent the data via Bluetooth."
+  sources:
+   - name: github
+     url: https://github.com/ricardomokhtari/HealthHack2019
+   - name: devpost
+     url: https://devpost.com/software/correct-a-spine
+  pictures:
+    - /images/projects/cas-1.jpg
+    - /images/projects/cas-2.jpg
+    - /images/projects/cas-3.jpg
+    - /images/projects/cas-4.jpg
 - name: Automatic Monzo Receipts from Gmail
   background: https://images.squarespace-cdn.com/content/55ed941ee4b0fe005b38b95d/1503770964368-MDMOLHC22MDRVHIU6EPS/monzocard.jpg?format=1500w&content-type=image%2Fjpeg
   offset: center

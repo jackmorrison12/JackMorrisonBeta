@@ -1,9 +1,7 @@
 <div class="footer">
-    <a href = "mailto:jack1morrison@icloud.com"><i class="fa fa-at fa-2x icon-3d"></i></a>
-    <a href = "sms:+447775101516"><i class="fa fa-mobile fa-2x icon-3d"></i></a>
-    <a href = "https://github.com/jackmorrison12"><i class="fa fa-github fa-2x icon-3d"></i></a>
-    <a href = "https://gitlab.doc.ic.ac.uk/jsm1317"><i class="fa fa-gitlab fa-2x icon-3d"></i></a>
-    <a href = "https://twitter.com/jsm_ic"><i class="fa fa-twitter fa-2x icon-3d"></i></a>
-    <a href = "https://www.linkedin.com/in/jackmorrison12/"><i class="fa fa-linkedin fa-2x icon-3d"></i></a>
+    {% assign socials = site.data.socials | where:'footer', true %}
+    {% for item in socials %}
+        <a href = "{{item.url}}"><i class="fa fa-{{item.logo}} fa-2x icon-3d"></i></a>
+    {% endfor %}
 </div>
 

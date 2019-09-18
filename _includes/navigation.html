@@ -7,7 +7,8 @@
             </li>
         {% endfor %}
 
-        {% for item in site.data.socials %}
+        {% assign socials = site.data.socials | where:'header', true %}
+        {% for item in socials %}
             <a href = "{{item.url}}">
                 <img src="{{item.img_src}}" class="nav-logo">
             </a>   

@@ -14,6 +14,7 @@ layout: default
             {% for pic in item.pictures %}
                 <img class="proj_img" src="{{site.baseurl}}{{pic}}">
             {% endfor %}
+            <br>
         {% endif %}
 
         {% if item.videos %}
@@ -22,17 +23,18 @@ layout: default
                 <h3>{{vid.title}}</h3>
                 <iframe class="youtube" src="{{vid.url}}"  allow="autoplay; encrypted-media" allowfullscreen></iframe>
             {% endfor %}
+            <br>
         {% endif %}
         <br>
 
         <div class="svg-wrapper">
-                <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
-                    <rect id="shape" height="40" width="150" />
-                    <div id="text">
-                        <a href="{{site.baseurl}}/projects/"><span class="spot"></span>Other Projects</a>
-                    </div>
-                </svg>
-            </div>
+            <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                <rect id="shape" height="40" width="150" />
+                <div id="text">
+                    <a href="{{site.baseurl}}/projects/"><span class="spot"></span>Other Projects</a>
+                </div>
+            </svg>
+        </div>
 
 
     {% endif %}

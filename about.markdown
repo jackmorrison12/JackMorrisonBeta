@@ -6,7 +6,7 @@ style: default
 ---
 <img class="avatar" src="/images/avatar.jpg" alt="Avatar">
 
-#### About Me
+### About Me
 
 Hey, my name is Jack. I am a third year Computing Undergraduate at Imperial College London. 
 Before studying at Imperial, I studied at The Billericay School and Westcliff High School for Boys Sixth Form.
@@ -15,7 +15,7 @@ I first realised I wanted to study computing when my A Level maths teacher start
 
 In my free time, I enjoy listening to a wide variety of music, especially pop. When I’m not working, I enjoy spending time with my friends all over the country. I also love to travel - see my travel progress here.
 
-#### About The Site
+### About The Site
 
 All of the content on this site is generated using the static website generator Jekyll.
 

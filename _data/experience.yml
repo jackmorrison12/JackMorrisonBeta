@@ -1,6 +1,22 @@
 - name: Nextjump
   dates: June 2019 - September 2019
+  banner: /beta/images/nxj.jpg
+  offset: center
+  logo: https://upload.wikimedia.org/wikipedia/en/3/34/Full_Logo_Large.png
+  site: https://www.nextjump.com/
+  desc: I worked at NxJ
 - name: MyTutor
   dates: June 2018 - June 2019
+  banner: https://cdn.mytutor.co.uk/images/school_timetable--large_min75.jpg
+  offset: center
+  logo: https://www.besa.org.uk/wp-content/uploads/2019/02/MyTutor_Logo_Purple_RGB.png
+  site: https://www.mytutor.co.uk/
+  desc: I was a tutor of Computing and Mathematics for A Level students
 - name: Facebook
   dates: October 2018 - November 2019
+  banner: https://cdn.vox-cdn.com/thumbor/XN4fZf9ascQFSCMJPAj6YO8JbC8=/0x0:2040x1360/1820x1213/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/62954051/mdoying_180118_2249_facebook_0445stills_3.0.jpg
+  offset: center
+  logo: https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-1-1.png
+  site: https://www.facebook.com/
+  desc: I participated in Facebook's Hack-a-Project scheme in 2018, where I was put in a group with 2 other Computing students, and we had to create a project with the aim of "Bringing Communities Together". I learnt lots of new technologies, including React, MongoDB, NodeJS and Docker, which I have used in more projects since.
+  project: ../projects/mentor-me

@@ -1,4 +1,6 @@
-<button class="collapsible" style="{%if include.background %}background-image: url('{{ include.background }}'); background-position-y: {{ include.offset }}; {% else %} background: linear-gradient(to right, #061161, #780206);{% endif %}">{{ include.title }}</button>
+<button class="collapsible" style="{%if include.background %}background-image: url('{{ include.background }}'); background-position-y: {{ include.offset }}; {% else %} background: linear-gradient(to right, #061161, #780206);{% endif %}">
+    {{ include.title }}
+</button>
 <div class="coll_content">
   <p>{% include {{ include.content }}.html %}</p>
 </div>

@@ -5,6 +5,15 @@ body {
     padding: 0;
 }
 
+.title {
+    font-family: 'Cinzel Decorative';
+    /* text-decoration: underline; */
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-bottom: 1px solid black;
+}
+
 .twt_wrap {
     text-align: center;
 }

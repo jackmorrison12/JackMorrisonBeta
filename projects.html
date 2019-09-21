@@ -4,9 +4,14 @@ title: Projects
 permalink: /projects/
 style: projects
 ---
-{% for item in site.data.projects %}
-    {% include collapsible.html title=item.name content="project_collapsible" background=item.background offset=item.offset size="small" %} 
-    <br>
+{% for type in site.data.project_types %}
+    <h3>{{type}}</h3>
+    {% for item in site.data.projects %}
+        {% if item.type == type %}
+            {% include collapsible.html title=item.name content="project_collapsible" background=item.background offset=item.offset size="small" %} 
+            {% unless item.last %}<br>{% endunless %}
+        {% endif %}
+    {% endfor %}
 {% endfor %}
 
 {% include collapsible_script.html %}

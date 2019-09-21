@@ -22,7 +22,7 @@
   dates: January 2019 - March 2019
   short_desc: "This is our second year compilers project, where we are creating a compiler for a programming language."
   long_desc: "This is our second year compilers project, where we are creating a compiler for a programming language. We wrote the compiler in Kotlin.<br>Unfortunately, the code for this project cannot be shared, as the task will be reused in future years."
-- name: correct-a-spine
+- name: Correct-a-Spine
   type: Hackathons
   banner: https://embed.widencdn.net/img/veritas/hhfs20mdfz/1280x720px/thoracic-vertebrae.jpeg
   offset: center

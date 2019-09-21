@@ -4,8 +4,8 @@ title: Home
 permalink: /
 style: default
 ---
-Hey, welcome! My name is Jack. Here you can find I've decided to share with the internet. Please send me any feedback using the social links below! 
+Hey, welcome! My name is Jack. I am a third year Computing Undergraduate at Imperial College London. Here you can find I've decided to share with the internet, including [some cool projects I've worked on](/projects).
 
-Here's what I've been saying lately:
+Please send me any feedback using the links below in the footer!
 
 {% include twitter.html %}

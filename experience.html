@@ -5,7 +5,7 @@ permalink: /experience/
 style: experience
 ---
 {% for item in site.data.experience %}
-    {% include collapsible.html title=item.name content="experience_collapsible" background=item.background offset=item.offset logo=item.logo %} 
+    {% include collapsible.html title=item.name content="experience_collapsible" background=item.background offset=item.offset logo=item.logo size="large" %} 
     <br>
 {% endfor %}
 

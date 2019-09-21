@@ -5,7 +5,7 @@ permalink: /projects/
 style: projects
 ---
 {% for item in site.data.projects %}
-    {% include collapsible.html title=item.name content="project_collapsible" background=item.background offset=item.offset %} 
+    {% include collapsible.html title=item.name content="project_collapsible" background=item.background offset=item.offset size="small" %} 
     <br>
 {% endfor %}
 

@@ -3,7 +3,6 @@
     background-size: cover;
     color: white;
     cursor: pointer;
-    padding: 18px;
     width: 100%;
     border: none;
     text-align: left;
@@ -13,9 +12,17 @@
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    font-size: xx-large;
     text-shadow: 1px 1px 2px black;       
+}
 
+.collapsible_large {
+    padding: 18px;
+    font-size: xx-large;
+}
+
+.collapsible_small {
+    padding: 8px;
+    font-size: medium;
 }
 
 .coll_active, .collapsible:hover {

@@ -5,7 +5,7 @@ permalink: /transcript/
 style: transcript
 ---
 {% for item in site.data.results %}
-    {% include collapsible.html title=item.name content="transcript_collapsible" background=item.background offset=item.offset %} 
+    {% include collapsible.html title=item.name content="transcript_collapsible" background=item.background offset=item.offset size="large" %} 
     <br>
 {% endfor %}
 

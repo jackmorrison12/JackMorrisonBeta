@@ -25,3 +25,5 @@ Initially, I wanted to do something dynamic. However, since I host the site usin
 
 My initial project is to export my current site, reducing all of the code duplication, which I am currently doing. Once this is complete, it will be much easier to update with more content.
 
+The github repo for this site can be found [here](https://github.com/jackmorrison12/jackmorrison12.github.io "Website Github Repo").
+

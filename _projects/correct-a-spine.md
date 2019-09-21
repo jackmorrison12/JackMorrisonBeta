@@ -1,3 +1,3 @@
 ---
-title: correct-a-spine
+title: Correct-a-Spine
 ---

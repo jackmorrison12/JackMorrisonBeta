@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>http://jackmorrison.xyz/</loc>
+    <lastmod>2019-09-22</lastmod>
+  </url>
+  <url>
+    <loc>http://jackmorrison.xyz/transcript/</loc>
+    <lastmod>2019-09-22</lastmod>
+  </url>
+  <url>
+    <loc>http://jackmorrison.xyz/about/</loc>
+    <lastmod>2019-09-22</lastmod>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/avatar.jpg</image:loc>
+      <image:title>Avatar</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://jackmorrison.xyz/projects/</loc>
+    <lastmod>2019-09-22</lastmod>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/github-logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/devpost-logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/gitlab-logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/website-logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/file-logo.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://jackmorrison.xyz/projects/mentor-me</loc>
+    <lastmod>2019-09-22</lastmod>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/github-logo.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://jackmorrison.xyz/projects/snake</loc>
+    <lastmod>2019-09-22</lastmod>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/github-logo.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://jackmorrison.xyz/projects/monzo-receipts</loc>
+    <lastmod>2019-09-22</lastmod>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/github-logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/devpost-logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/projects/monzo-receipts.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://jackmorrison.xyz/files/epq.pdf</loc>
+    <lastmod>2019-09-22</lastmod>
+  </url>
+  <url>
+    <loc>http://jackmorrison.xyz/projects/epq</loc>
+    <lastmod>2019-09-22</lastmod>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/file-logo.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://jackmorrison.xyz/projects/arm11</loc>
+    <lastmod>2019-09-22</lastmod>
+  </url>
+  <url>
+    <loc>http://jackmorrison.xyz/projects/pintos</loc>
+    <lastmod>2019-09-22</lastmod>
+  </url>
+  <url>
+    <loc>http://jackmorrison.xyz/projects/imaths</loc>
+    <lastmod>2019-09-22</lastmod>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/github-logo.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://jackmorrison.xyz/projects/burst-my-bubble</loc>
+    <lastmod>2019-09-22</lastmod>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/gitlab-logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/projects/bmb-1.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/projects/bmb-2.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/projects/bmb-3.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/projects/bmb-4.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://jackmorrison.xyz/map/</loc>
+    <lastmod>2019-09-22</lastmod>
+  </url>
+  <url>
+    <loc>http://jackmorrison.xyz/files/jack-cv.pdf</loc>
+    <lastmod>2019-09-22</lastmod>
+  </url>
+  <url>
+    <loc>http://jackmorrison.xyz/projects/wacc</loc>
+    <lastmod>2019-09-22</lastmod>
+  </url>
+  <url>
+    <loc>http://jackmorrison.xyz/experience/</loc>
+    <lastmod>2019-09-22</lastmod>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/wp-content/uploads/2019/02/MyTutor_Logo_Purple_RGB.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/wp-content/uploads/2014/09/facebook-logo-1-1.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/wikipedia/en/3/34/Full_Logo_Large.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://jackmorrison.xyz/projects/correct-a-spine</loc>
+    <lastmod>2019-09-22</lastmod>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/github-logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/devpost-logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/projects/cas-1.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/projects/cas-2.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/projects/cas-3.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/projects/cas-4.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/projects/cas-5.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://jackmorrison.xyz/projects/topics</loc>
+    <lastmod>2019-09-22</lastmod>
+    <image:image>
+      <image:loc>http://jackmorrison.xyz/images/website-logo.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+</urlset>
+<!--<guid value="7ee45301-276a-4501-9f0d-719f041046a7" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->

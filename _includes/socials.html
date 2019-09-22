@@ -1,3 +1,14 @@
 {% for item in socials %}
-    <a href = "{{item.url}}"><i class="fa fa-{{item.logo}} fa-2x icon-3d-{{ include.padding }} icon-3d-{{ include.colour }} {{include.other_classes}}"></i></a>
+    <a href = "{{item.url}}" onclick=social_analytics("{{item.name}}")><i class="fa fa-{{item.logo}} fa-2x icon-3d-{{ include.padding }} icon-3d-{{ include.colour }} {{include.other_classes}}"></i></a>
 {% endfor %}
+
+<script type='text/javascript'>
+
+    function social_analytics(name) {
+        gtag('event', 'social-click', {
+            'event_category': 'Social Link Clicks',
+            'event_label': 'Social Click: ' + name,
+        });  
+    }
+    
+</script>

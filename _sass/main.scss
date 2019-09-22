@@ -191,33 +191,70 @@ h4 {
     margin-bottom: 0px;
 }
 
-$redColor: #78020699;
-$blueColor:#06116199;
 
-.icon-3d {
-  padding: 10px;
-  color: black;
-  &:hover {
-    -webkit-animation: icon3d 300ms infinite;
-          animation: icon3d 300ms infinite;
-  }
+.icon-3d-5 {
+  padding: 5px;
 }
 
-@keyframes icon3d {
+.icon-3d-10 {
+    padding: 10px;
+  }
+
+.icon-3d-dark {
+    color: black;
+    &:hover {
+        -webkit-animation: icon3ddark 300ms infinite;
+              animation: icon3ddark 300ms infinite;
+      }
+}
+
+.icon-3d-light {
+    color: white;
+    &:hover {
+        -webkit-animation: icon3dlight 300ms infinite;
+              animation: icon3dlight 300ms infinite;
+      }
+}
+
+$redColorDark: #78020699;
+$blueColorDark:#06116199;
+
+@keyframes icon3ddark {
   0% {
-    text-shadow: 5px 4px $redColor, -5px -6px $blueColor;
+    text-shadow: 5px 4px $redColorDark, -5px -6px $blueColorDark;
   }
   25% {
-    text-shadow: -5px -6px $redColor, 5px 4px $blueColor;
+    text-shadow: -5px -6px $redColorDark, 5px 4px $blueColorDark;
   }
   50% {
-    text-shadow: 5px -4px $redColor, -8px 4px $blueColor;
+    text-shadow: 5px -4px $redColorDark, -8px 4px $blueColorDark;
   }
   75% {
-    text-shadow: -8px -4px $redColor, -5px -4px $blueColor;
+    text-shadow: -8px -4px $redColorDark, -5px -4px $blueColorDark;
   }
   100% {
-    text-shadow: -5px 0 $redColor, 5px -4px $blueColor;
+    text-shadow: -5px 0 $redColorDark, 5px -4px $blueColorDark;
+  }
+} 
+
+$redColorLight: #e95f6499;
+$blueColorLight:#4a5ce799;
+
+@keyframes icon3dlight {
+  0% {
+    text-shadow: 5px 4px $redColorLight, -5px -6px $blueColorLight;
+  }
+  25% {
+    text-shadow: -5px -6px $redColorLight, 5px 4px $blueColorLight;
+  }
+  50% {
+    text-shadow: 5px -4px $redColorLight, -8px 4px $blueColorLight;
+  }
+  75% {
+    text-shadow: -8px -4px $redColorLight, -5px -4px $blueColorLight;
+  }
+  100% {
+    text-shadow: -5px 0 $redColorLight, 5px -4px $blueColorLight;
   }
 } 
 

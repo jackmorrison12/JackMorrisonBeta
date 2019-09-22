@@ -1,7 +1,5 @@
 <div class="footer">
     {% assign socials = site.data.socials | where:'footer', true %}
-    {% for item in socials %}
-        <a href = "{{item.url}}"><i class="fa fa-{{item.logo}} fa-2x icon-3d"></i></a>
-    {% endfor %}
+    {% include socials.html colour="dark" padding="10" %}
 </div>
 

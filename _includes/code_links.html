@@ -5,10 +5,21 @@
 {% endif %}
 
 {% for src in item.sources %}
-    <a class="site_icon" href="{{src.url}}">
+    <a class="site_icon" href="{{src.url}}" onclick=code_analytics("{{src.name}}")>
         <img class="site_icon" src="/images/{{src.name}}-logo.png">
     </a>
 {% endfor %}
 {% if item.sources %}
     <br>
 {% endif %}
+
+<script type='text/javascript'>
+
+    function code_analytics(name) {
+        gtag('event', 'code-click', {
+            'event_category': 'Code Link Clicks',
+            'event_label': 'Code Link Click: ' + name,
+        });  
+    }
+    
+</script>

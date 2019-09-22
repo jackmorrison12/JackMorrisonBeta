@@ -5,6 +5,11 @@
     
     for (i = 0; i < coll.length; i++) {
         coll[i].addEventListener("click", function() {
+            gtag('event', 'expand-dropdown', {
+            'event_category': 'Drowdowns',
+            'event_label': 'Dropdown:' + this.innerHTML,
+            'value': this.innerHTML
+            });
             this.classList.toggle("coll_active");
             var content = this.nextElementSibling;
             if (content.style.maxHeight){

@@ -3,7 +3,7 @@
 
         {% for item in site.data.navigation %}
             <li>
-                <a {% if page.url == item.link %}class="active"{% endif %} href="{{site.baseurl}}{{ item.link }}">{{ item.name }}</a>
+                <a {% if page.url == item.link %}class="active"{% endif %} href="{{site.baseurl}}{{ item.link }}" onclick=nav_analytics("{{item.name}}")>{{ item.name }}</a>
             </li>
         {% endfor %}
 
@@ -11,3 +11,14 @@
         {% include socials.html colour="light" padding="5" other_classes="nav-logo" %}
     </ul>
 </div>
+
+<script type='text/javascript'>
+
+    function nav_analytics(name) {
+        gtag('event', 'nav-click', {
+            'event_category': 'Navbar Clicks',
+            'event_label': 'Nav Click: ' + name,
+        });  
+    }
+    
+</script>

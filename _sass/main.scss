@@ -148,6 +148,11 @@ h4 {
     color: white;
 }
 
+.nav {
+    position: sticky;
+    top: 0;
+}
+
 .nav ul {
     list-style-type: none;
     margin: 0;
@@ -271,6 +276,10 @@ $blueColorLight:#4a5ce799;
 
     .nav-logo {
         display: none !important;
+    }
+
+    .nav { 
+        position: unset;
     }
 
   }

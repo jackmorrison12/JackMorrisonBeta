@@ -16,6 +16,17 @@
       awarder: Dr Mark Wheelhouse
       date: June 2019
   years:
+    - year_no: Second
+      overall: First (79.3%)
+      highlights:
+        - name: Models of Computation Exam
+          score: First (97.2%)
+        - name: Software Engineering Design Exam
+          score: First (86.67%)
+        - name: Pintos Project
+          score: First (88.3%)
+        - name: WACC Project
+          score: First (96.4%)
     - year_no: First
       overall: First (71.4%)
       highlights:
@@ -31,17 +42,6 @@
           score: First (98%)
         - name: C Project
           score: First (96%)
-    - year_no: Second
-      overall: First (79.3%)
-      highlights:
-        - name: Models of Computation Exam
-          score: First (97.2%)
-        - name: Software Engineering Design Exam
-          score: First (86.67%)
-        - name: Pintos Project
-          score: First (88.3%)
-        - name: WACC Project
-          score: First (96.4%)
 
 - name: Westcliff High School for Boys
   dates: 2015-2017

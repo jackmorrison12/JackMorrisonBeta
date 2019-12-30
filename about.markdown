@@ -2,7 +2,7 @@
 layout: default
 title: About
 permalink: /about/
-style: default
+style: about
 ---
 <img class="avatar" src="/images/avatar.jpg" alt="Avatar">
 

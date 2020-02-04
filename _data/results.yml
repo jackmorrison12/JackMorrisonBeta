@@ -16,6 +16,11 @@
       awarder: Dr Mark Wheelhouse
       date: June 2019
   years:
+    - year_no: Third
+      overall: First (Based on December Exams)
+      highlights:
+        - name: Robotics Exam
+          score: First (80.4%)
     - year_no: Second
       overall: First (79.3%)
       highlights:

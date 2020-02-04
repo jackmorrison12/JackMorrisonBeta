@@ -4,26 +4,34 @@ title: About
 permalink: /about/
 style: about
 ---
-<img class="avatar" src="/images/avatar.jpg" alt="Avatar">
+<img class="avatar" src="/images/avatar.jpg" alt="Avatar"> 
 
-### About Me
+## About Me
 
-Hey, my name is Jack. I am a third year Computing Undergraduate at Imperial College London. 
-Before studying at Imperial, I studied at The Billericay School and Westcliff High School for Boys Sixth Form.
+Hey, my name is Jack. I am a third year Computing Undergraduate at Imperial College London.
 
-I first realised I wanted to study computing when my A Level maths teacher started discussing computer-assisted proofs, and why some people didn’t accept their validity. I was extremely intrigued, and so decided to complete my Extended Project on it. Since then, I have realised that computer science is a much wider area than just writing programs, and that is why I want to learn more about it.
+### Education
+Imperial College London (2017-2021)
 
-In my free time, I enjoy listening to a wide variety of music, especially pop. When I’m not working, I enjoy spending time with my friends all over the country. I also love to travel - see my travel progress [here](/map).
+Westcliff High School for Boys Sixth Form (2015-2017)
 
-### About The Site
+The Billericay School (2010-2015)
 
-All of the content on this site is generated using the static website generator Jekyll.
+### Why Computing?
 
-The original version of this site was created when I was 16 as part of a school project. I wrote it in basic HTML and CSS, and therefore it has become unsustainable as more pages have been added, as there is a lot of duplication. That's why I decided to migrate it to something more sustainable.
+I first realised I wanted to study computing when my A Level maths teacher started discussing computer-assisted proofs, and why some people didn’t accept their validity. I was extremely intrigued, and so decided to complete my Extended Project on it. Since then, I have realised that computer science is a much wider area than just writing programs, and that is why I am learning more about it.
 
-Initially, I wanted to do something dynamic. However, since I host the site using Github Pages, dynamic sites are not supported. I considered switching hosting provider, but after some internet research, I discovered a static solution: Jekyll. I thought this would be a fun challenge.
+### Other interests
 
-My initial project is to export my current site, reducing all of the code duplication, which I am currently doing. Once this is complete, it will be much easier to update with more content.
+I'm currently learning how to Skydive, and plan to get my A Licence.
+
+In my free time, I enjoy listening to a wide variety of music, especially pop. I play the Piano.
+
+When I’m not working, I enjoy spending time with my friends all over the country. I also love to travel - see my travel progress [here](/map).
+
+## About The Site
+
+All of the content on this site is generated using the static website generator Jekyll, and is hosted using GitHub Pages.
 
 The github repo for this site can be found [here](https://github.com/jackmorrison12/jackmorrison12.github.io "Website Github Repo").
 

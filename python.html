@@ -1,0 +1,35 @@
+---
+layout: default
+title: Python Tutorial
+permalink: /python/
+style: default
+---
+
+<p>
+    For my Communication Computer Science in Schools module, I am teaching a Python course to some Year 10 students at 
+    The Coopers' Company and Coborn School. 
+    <br>    
+    Here can be found the materials for the course.
+</p>
+
+{% for item in site.data.python %}
+    <h4>{{item.name}}</h4>
+    {% if item.slides %}
+        <a href = "{{item.slides}}">Slides</a>
+        <br>
+    {% endif %}
+    {% if item.teacher_slides %}
+        <a href = "{{item.teacher_slides}}">Teacher Slides</a>
+        <br>
+    {% endif %}
+    {% if item.student_slides %}
+        <a href = "{{item.student_slides}}">Student Slides</a>
+        <br>
+    {% endif %}
+    <a href = "{{item.worksheet}}">Worksheet</a>
+    <br>
+    <a href = "{{item.answers}}">Worksheet Answers</a>
+    <br>
+    <a href = "{{item.github}}" onclick=social_analytics("GitHub")><i class="fa fa-github fa-2x icon-3d-10 icon-3d-dark "></i></a>
+{% endfor %}
+

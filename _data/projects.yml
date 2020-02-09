@@ -1,3 +1,17 @@
+- name: PyPlay
+  type: Hackathons
+  last: false
+  banner: https://images.squarespace-cdn.com/content/55ed941ee4b0fe005b38b95d/1503770964368-MDMOLHC22MDRVHIU6EPS/monzocard.jpg?format=1500w&content-type=image%2Fjpeg
+  offset: center
+  url: pyplay
+  dates: February 2020
+  short_desc: "An app created for IC Hack 2020, to teach young coders the basics of Python"
+  long_desc: "Creativity, Curiosity, Coding! Those are our three C's, our core values here at PyPlay. We wanted to create an application to teach young coders the basics of Python. We want to provide an easy-to-use interface, where kids can write code, and visually see their code come to life. Unlike other platforms, where you drag-and-drop blocks, with PyPlay, you're actually writing real Python code! We created this for IC Hack 2020. "
+  sources:
+   - name: github
+     url: https://github.com/jackmorrison12/pyplay
+   - name: devpost
+     url: https://devpost.com/software/pyplay
 - name: Canvas
   type: Uni Projects
   banner: tbd

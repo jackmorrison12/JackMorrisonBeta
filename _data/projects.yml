@@ -12,6 +12,8 @@
      url: https://github.com/jackmorrison12/pyplay
    - name: devpost
      url: https://devpost.com/software/pyplay
+   - name: website
+     url: http://code.pyplay.co.uk/
   pictures:
   - /images/projects/pyplay-1.jpg
 - name: Canvas

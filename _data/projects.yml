@@ -12,6 +12,8 @@
      url: https://github.com/jackmorrison12/pyplay
    - name: devpost
      url: https://devpost.com/software/pyplay
+  pictures:
+  - /images/projects/pyplay-1.jpg
 - name: Canvas
   type: Uni Projects
   banner: tbd

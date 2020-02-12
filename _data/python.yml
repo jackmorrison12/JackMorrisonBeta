@@ -14,5 +14,11 @@
   teacher_slides: https://drive.google.com/open?id=1kA-EadiqELULi2SbUgUNUp2tybyvnIVOrj0VrmV1zBo
   student_slides: https://drive.google.com/open?id=1wQFnfciXf6FtUq7aB0xJQzTy019L6FlsiD8ePDSxKYg
   worksheet: https://drive.google.com/open?id=19mpxMxMLemz10qNY_dVvlI-WO21oINHN5tlBvT-9qLU
-  answers: https://docs.google.com/document/d/1OIrJy_TReGCYz1rvDJvfGTKbkkmJWjotvzmCSq1NqS8/edit
+  answers: https://docs.google.com/document/d/1OIrJy_TReGCYz1rvDJvfGTKbkkmJWjotvzmCSq1NqS8/edit?usp=sharing
   github: https://github.com/jackmorrison12/python-tutorial/tree/master/worksheet3
+- name: Week 4 - Functions
+  slides: https://docs.google.com/presentation/d/1edOf1TxEebL1I_67jf5LmOS8LOAw3HSjAPGmbeQwDno/edit?usp=sharing
+  worksheet: https://colab.research.google.com/drive/1ItGkTD73Qq3_3B7w0Xgh8R3_yebrgvrC
+  answers: https://colab.research.google.com/drive/14S7RYR5mkXp0FnwR0dMcMbSA8ujSfOqy
+  leaderboard: https://vast-depths-77634.herokuapp.com/
+  github: https://github.com/jackmorrison12/python-tutorial/tree/master/worksheet4

@@ -28,6 +28,10 @@ style: default
     {% endif %}
     <a href = "{{item.worksheet}}">Worksheet</a>
     <br>
+    {% if item.notebook %}
+        <a href = "{{item.notebook}}">Jupyter Notebook</a>
+        <br>
+    {% endif %}
     <a href = "{{item.answers}}">Worksheet Answers</a>
     <br>
     {% if item.leaderboard %}

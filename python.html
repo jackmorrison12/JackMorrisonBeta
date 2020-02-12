@@ -30,10 +30,10 @@ style: default
     <br>
     <a href = "{{item.answers}}">Worksheet Answers</a>
     <br>
-    <a href = "{{item.github}}" onclick=social_analytics("GitHub")><i class="fa fa-github fa-2x icon-3d-10 icon-3d-dark "></i></a>
     {% if item.leaderboard %}
         <a href = "{{item.leaderboard}}">Leaderboard</a>
         <br>
     {% endif %}
+    <a href = "{{item.github}}" onclick=social_analytics("GitHub")><i class="fa fa-github fa-2x icon-3d-10 icon-3d-dark "></i></a>
 {% endfor %}
 

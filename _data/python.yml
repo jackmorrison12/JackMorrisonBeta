@@ -25,8 +25,8 @@
   github: https://github.com/jackmorrison12/python-tutorial/tree/master/worksheet4
 - name: Week 5 - Further Functions
   slides: https://docs.google.com/presentation/d/1CTdWDJ7JeQR6tYDsZjlO9eaTMwamrPz-EqJ8iVWReu4/edit?usp=sharing
-  # notebook:
-  # worksheet:
+  notebook:  https://colab.research.google.com/drive/1KIDB0_jgUiX8IaeZJXvxr_UhvOpzn0pN
+  # worksheet: 
   answers: https://colab.research.google.com/drive/1QxLkNb_XF1qxBY-IOmOZCoOmj2QP6yln
   leaderboard: https://www.urlreload.com/index.php?u=https://vast-depths-77634.herokuapp.com/&t=30&k=1b60ded566c354a0cc0ea3f3279a8d7e
   # github: 

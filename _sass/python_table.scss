@@ -1,0 +1,24 @@
+table{
+    width: 100% !important
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.empty{
+    background: repeating-linear-gradient(
+        45deg,
+        #f2f2f2,
+        #f2f2f2 10px,
+        white 10px,
+        white 20px
+      );
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+th, td {
+    padding: 5px;
+}

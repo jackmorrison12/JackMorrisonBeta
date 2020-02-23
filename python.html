@@ -2,42 +2,53 @@
 layout: default
 title: Python Tutorial
 permalink: /python/
-style: default
+style: python
 ---
 
 <p>
     For my Communication Computer Science in Schools module, I am teaching a Python course to some Year 10 students at 
     The Coopers' Company and Coborn School. 
     <br>    
-    Here can be found the materials for the course.
+    Here are the materials for the course.
 </p>
 
-{% for item in site.data.python %}
-    <h4>{{item.name}}</h4>
+<table>
+    <tr>
+        <th>Week</th>
+        <th>Teacher Slides</th>
+        <th>Student Slides</th>
+        <th>Worksheet</th>
+        <th>Worksheet Answers</th>
+        <th>Jupyter Notebook</th>
+        <th>Leaderboard</th>
+        <th>GitHub</th>
+    </tr>
+    {% for item in site.data.python %}
+    <tr>
+        <td>{{item.name}}</td>
     {% if item.slides %}
-        <a href = "{{item.slides}}">Slides</a>
-        <br>
+        <td><a href = "{{item.slides}}">Slides</a></td>
     {% endif %}
     {% if item.teacher_slides %}
-        <a href = "{{item.teacher_slides}}">Teacher Slides</a>
-        <br>
+        <td><a href = "{{item.teacher_slides}}">Teacher Slides</a></td>
     {% endif %}
     {% if item.student_slides %}
-        <a href = "{{item.student_slides}}">Student Slides</a>
-        <br>
+        <td><a href = "{{item.student_slides}}">Student Slides</a></td>
     {% endif %}
-    <a href = "{{item.worksheet}}">Worksheet</a>
-    <br>
+    <td><a href = "{{item.worksheet}}">Worksheet</a></td>
+    <td><a href = "{{item.answers}}">Worksheet Answers</a></td>
     {% if item.notebook %}
-        <a href = "{{item.notebook}}">Jupyter Notebook</a>
-        <br>
+        <td><a href = "{{item.notebook}}">Jupyter Notebook</a></td>
+    {% else %}
+        <td class="empty"></td>
     {% endif %}
-    <a href = "{{item.answers}}">Worksheet Answers</a>
-    <br>
     {% if item.leaderboard %}
-        <a href = "{{item.leaderboard}}">Leaderboard</a>
-        <br>
+        <td><a href = "{{item.leaderboard}}">Leaderboard</a></td>
+    {% else %}
+        <td class="empty"></td>
     {% endif %}
-    <a href = "{{item.github}}" onclick=social_analytics("GitHub")><i class="fa fa-github fa-2x icon-3d-10 icon-3d-dark "></i></a>
-{% endfor %}
+    <td><a href = "{{item.github}}" onclick=social_analytics("GitHub")><i class="fa fa-github fa-2x icon-3d-10 icon-3d-dark "></i></a></td>
+    </tr>
+    {% endfor %}
 
+</table>

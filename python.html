@@ -12,7 +12,7 @@ style: python
     Here are the materials for the course.
 </p>
 
-<table>
+<table class="content-desktop">
     <tr>
         <th>Week</th>
         <th>Teacher Slides</th>
@@ -52,3 +52,35 @@ style: python
     {% endfor %}
 
 </table>
+
+<div class="content-mobile">
+    {% for item in site.data.python %}
+        <h4>{{item.name}}</h4>
+        {% if item.slides %}
+            <a href = "{{item.slides}}">Slides</a>
+            <br>
+        {% endif %}
+        {% if item.teacher_slides %}
+            <a href = "{{item.teacher_slides}}">Teacher Slides</a>
+            <br>
+        {% endif %}
+        {% if item.student_slides %}
+            <a href = "{{item.student_slides}}">Student Slides</a>
+            <br>
+        {% endif %}
+        <a href = "{{item.worksheet}}">Worksheet</a>
+        <br>
+        {% if item.notebook %}
+            <a href = "{{item.notebook}}">Jupyter Notebook</a>
+            <br>
+        {% endif %}
+        <a href = "{{item.answers}}">Worksheet Answers</a>
+        <br>
+        {% if item.leaderboard %}
+            <a href = "{{item.leaderboard}}">Leaderboard</a>
+            <br>
+        {% endif %}
+        <a href = "{{item.github}}" onclick=social_analytics("GitHub")><i class="fa fa-github fa-2x icon-3d-10 icon-3d-dark "></i></a>
+    {% endfor %}
+
+</div>

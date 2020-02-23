@@ -1,5 +1,5 @@
 table{
-    width: 100% !important
+    width: 100% !important;
 }
 
 tr:nth-child(even) {background-color: #f2f2f2;}
@@ -21,4 +21,14 @@ th {
 
 th, td {
     padding: 5px;
+}
+
+ .content-desktop {display: table;}
+.content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+.content-desktop {display: none;}
+.content-mobile {display: inherit;}
+
 }

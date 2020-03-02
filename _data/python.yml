@@ -37,8 +37,8 @@
 - name: Methods
   teacher_slides: https://docs.google.com/presentation/d/1T_UcJSjM6U-HoXkHj9Y8eFjn3TJnx_Y6ZPKaXBKbbGI/edit?usp=sharing
   student_slides: https://docs.google.com/presentation/d/1T_UcJSjM6U-HoXkHj9Y8eFjn3TJnx_Y6ZPKaXBKbbGI/edit?usp=sharing
-  notebook: 
-  worksheet: 
+  notebook: https://colab.research.google.com/drive/1a9A2TbbjbRN_IkXya6H-uZmczz5G7kAR
+  worksheet: https://docs.google.com/document/d/1WU2V3AxwN1WNibP8hjVyfbUpndBOJ3FK_P6QirjGyP0/edit?usp=sharing
   answers: https://www.urlreload.com/index.php?u=https://vast-depths-77634.herokuapp.com/&t=30&k=1b60ded566c354a0cc0ea3f3279a8d7e&t=30&k=4a2fe1cef4fc81aa1867036b3d9485e6
   leaderboard: https://www.urlreload.com/index.php?u=https://vast-depths-77634.herokuapp.com/&t=30&k=1b60ded566c354a0cc0ea3f3279a8d7e&t=30&k=4a2fe1cef4fc81aa1867036b3d9485e6
   github: https://github.com/jackmorrison12/python-tutorial/tree/master/worksheet6
